@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "Python-JupyNoteBook"
+		}
+	],
+	"settings": {
+		"vscode-corda.isCordaProject": false
+	}
+}
