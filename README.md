@@ -1,4 +1,4 @@
-# Projet Python_sante avec Akeini
+# Projet Python avec Akeini
 
 # SEMAINE 2
 # exercice 1, 2, challenge et variable
