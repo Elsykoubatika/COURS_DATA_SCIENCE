@@ -57,3 +57,26 @@ print('=' * 55)
 print(f' RESULTAT TRIAGE — {nom_patient.upper()}')
 print('=' * 55)
 # TODO : Afficher tous les parametres vitaux et le resultat du triage
+print('PARAMETRES VITAUX')
+print(f'Temperature     : {temperature} C')
+print(f'Saturation      : {spo2} %')
+print(f'Tension systol  : {tension_syst} mmHg')
+print(f'Douleur         : {douleur}/ 10')
+
+print('-' * 55)
+
+print(f'NIVEAU DE TRIAGE : {niveau_triage}')
+print(f'COULEUR          : {couleur_triage}')
+print(f'PRISE EN CHARGE  : {delai_pec}')
+print(f'ACTION           : {action_triage}')
+
+print('-' * 55)
+if temperature > 39.5 :
+    print(f'Motif principal  : Temperature {temperature} C > seuil 39.5 C')
+else:
+    print(f'Motif principal  : Temperature {temperature} C < seuil 39.5 C')
+    
+print('=' * 55)
+
+
+
