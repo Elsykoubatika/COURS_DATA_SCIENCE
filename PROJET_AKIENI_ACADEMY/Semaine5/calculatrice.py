@@ -1,4 +1,13 @@
-#PROJET CALCULATRICE AVCE PYTHON
+#=====================================================================
+#AKIENI ACADEMY - PROJET CALCULATRICE AVCE PYTHON
+#Notion aborder:
+# Fontions
+# Boucles
+# conditions
+# variables
+# Gestion des erreurs
+# import math
+#=====================================================================
 
 #fonction pour faire des calcule avec une liste
 def calcul_list(liste, operation):
@@ -200,6 +209,7 @@ while True: # Ou encore while choix =! "quit"
     print("2- soustraction")
     print("3- division")
     print("4- multiplication")
+    print("5- Opération sur une liste")
     print("6- scientifique")
     print("7- quit")
     
