@@ -17,7 +17,7 @@ def calcul_list(liste, operation):
     Args:
         Liste: les chiffres saisis par l'utilisateurs
         operation : operateur et statistique de base et données selectioner par l'utilisateur 
-                    (*, /, +, -, min, max, moyenne, mediane, tri, taille)
+                    (*, /, +, -, min, max, moyenne, mediane, tri)
 
     Returns:
         float: total
@@ -96,6 +96,7 @@ def soustraction(num1, num2):
     Returns:
         float: total
     """
+    
     return num1 - num2
 
 #Fonction pour diviser deux element et verifie que le nombre n'est pas egale a zero
